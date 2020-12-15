@@ -140,9 +140,9 @@ extension SongsListViewController: UITableViewDataSource, UITableViewDelegate{
         guard let nextVC = storyboard?.instantiateViewController(withIdentifier: "PlayerViewController") as? PlayerViewController else {
             return
         }
-        nextVC.songs = songs
-        nextVC.position = position
         present(nextVC, animated: true )
+        nextVC.position = position
+        nextVC.songs = songs
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
