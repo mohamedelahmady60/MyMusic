@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "adele-rolling-in-the-deep-1-728.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "adele-rolling-in-the-deep-1-728@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "adele-rolling-in-the-deep-1-728@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
