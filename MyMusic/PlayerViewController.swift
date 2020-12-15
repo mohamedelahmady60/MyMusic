@@ -79,19 +79,7 @@ class PlayerViewController: UIViewController {
         
         
         //set album cover
-        if selectedSong.isPlaying == true {
-            albumImageview.image = UIImage(named: selectedSong.imageName)
-            albumImageview.frame = CGRect(x: 10,
-                                          y: 10,
-                                          width: holder.frame.size.width - 20,
-                                          height: holder.frame.size.height / 2.0)
-        }else {
-            albumImageview.frame = CGRect(x: 30,
-                                          y: 30,
-                                          width: holder.frame.size.width - 60,
-                                          height: holder.frame.size.height / 3.0)
-        }
-        
+        albumImageview.image = UIImage(named: selectedSong.imageName)
         //set lables: song , album and artist names
         songNameLabel.text = selectedSong.name
         albumNameLabel.text = selectedSong.albumName
