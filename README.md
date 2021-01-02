@@ -3,11 +3,11 @@ A simple Music player app.
 
 # The objective of this application is to practice:
 
-1- AutoLayout. 
+- AutoLayout. 
 
-2- Dealing with TableViews, sliders, and imagesViews.
+- Dealing with TableViews, sliders, and imagesViews.
 
-3- Dealing with AVFoundation and Audio functions.
+- Dealing with AVFoundation and Audio functions.
 
 
 
